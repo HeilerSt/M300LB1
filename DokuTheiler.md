@@ -33,6 +33,9 @@ Folgende Sicherheitsapsekte konnten umgesetzt werden:
 *Kommentar*
 Leider konnten nicht alle Sicherheitsaspekte implementiert werden. Das läuft zuschulden von zu wenig Wissen. Vieles funktionierte leider nicht, trotz Online-Tutorials und dem Unterrichtsmaterial.
 
+### Netzwerkplan
+![Image](/Netzwerkplan.png)
+
 ### Vagrantfile
 
 Die einzelnen Code Abschnitte des Vagrantfiles.
