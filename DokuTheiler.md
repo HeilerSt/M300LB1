@@ -2,6 +2,7 @@
 
 ## Kurzbeschrieb
 Das Ziel für mich war es einen Server automatisch erstellen zu können, auf dem eine MySQL-Datenbannk, sowie ein Webserver mit phpMyAdmin laufen.
+Dieser soll zusätzlich Sicherheitstechnisch gesichert sein.
 
 ## Wissensstand vor der LB1
 *Git*
@@ -21,13 +22,13 @@ Bezüglich der Virtualisierung habe ich nicht viel Wissen. In der Woche vom 18. 
 ## Implementierung
 ### Sicherheit
 Folgende Sicherheitsaspekte waren geplant:
-1. Usererstellung
+1. Nicht-Root-Usererstellung
 2. Firewall
 3. Reverse-Proxy
 4. HTTPS
 
 Folgende Sicherheitsapsekte konnten umgesetzt werden:
-1. Usererstellung
+1. Nicht-Root-Usererstellung
 2. Firewall
 
 *Kommentar*
@@ -151,6 +152,14 @@ sudo ufw allow out 22/tcp
 sudo ufw allow 80/tcp
 sudo ufw allow ssh
 ~~~~
+
+|Testfall | Erwartet | Resultat |
+|:--:|:--:|:--:|
+|Webserver|Webserver kann im Browser abgerufen werden|Der Webserver konnte im Browser abgerufen werden|
+|phpMyAdmin|Das phpMyAdmin Tool wird angezeigt|Das phpMyAdmin Tool wurde auf dem Webserver angezeigt|
+|mySQL-Server|Der mySQL sollte laufen|mySQL ist betriebsbereit|
+|Firewall|Die Firewall sollte aktiv sein und Port 80 und 22 offen halten|Firewall ist aktiv und Port 80 und 22 offen|
+|User|Man kann sich mit dem erstellten nicht-Root-User einloggen|Ich konnte mich mit dem User einloggen|
 
 ## Jetziger Wissensstand
 *Git*
