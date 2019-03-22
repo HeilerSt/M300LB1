@@ -2,18 +2,29 @@
 
 ## Inhaltsverzeichnis
 1. [Kurzbeschrieb](#Kurzbeschrieb)
-2. [Wissensstand vor der LB1](#Wissensstand-vor-der-LB1)
-3. [Implementierung](#Implementierung)
+2. [Vagrantbefehle](#Vagrantbefehle)
+3. [Wissensstand vor der LB1](#Wissensstand-vor-der-LB1)
+4. [Implementierung](#Implementierung)
     * [Sicherheit](#Sicherheit)
     * [Netzwerkplan](#Netzwerkplan)
     * [Vagrantfile](#Vagrantfile)
-4. [Testing](#Testing)
-5. [Jetziger Wissensstand](#Jetziger-Wissensstand)
-6. [Reflexion](#Reflexion)
+5. [Testing](#Testing)
+6. [Jetziger Wissensstand](#Jetziger-Wissensstand)
+7. [Reflexion](#Reflexion)
 
 ## Kurzbeschrieb
 Das Ziel für mich war es einen Server automatisch erstellen zu können, auf dem eine MySQL-Datenbannk, sowie ein Webserver mit phpMyAdmin laufen.
 Dieser soll zusätzlich sicherheitstechnisch gesichert sein.
+
+## Vagrantbefehle
+
+|Befehl | Effekt|
+|:--:|:--:|
+|vagrant up|Führt das Vagrantfile aus|
+|vagrant destroy -f|Löscht die VM und die zugehörigen Files|
+|vagrant halt|Haltet die VM an|
+|vagrant ssh|Connected per ssh auf die VM|
+|vagrant status|Zeigt den Status der VMs an die erstellt wurden|
 
 ## Wissensstand vor der LB1
 *Git* </br>
@@ -38,7 +49,7 @@ Folgende Sicherheitsaspekte waren geplant:
 3. Reverse-Proxy
 4. HTTPS
 
-Folgende Sicherheitsapsekte konnten umgesetzt werden:
+Folgende Sicherheitsaspekte konnten umgesetzt werden:
 1. Nicht-Root-Usererstellung
 2. Firewall
 
@@ -76,7 +87,7 @@ rm -rf /var/www
 ln -fs /vagrant /var/www
 ~~~~
 
-Den Servernamen dem hhtpd.conf-File hinzufügen
+Den Servernamen dem httpd.conf-File hinzufügen
 ~~~~
 echo "ServerName localhost" > /etc/apache2/httpd.conf
 ~~~~
@@ -187,7 +198,7 @@ sudo ufw allow ssh
 *Git* </br>
 Dieser Wissenstand hat sich nicht gross verändert, da ich bereits mit Git vertraut war. </br>
 *Vagrant* </br>
-Mein Wissen über Vagrant wurde deutlich vergrössert. Ich glaube aber, dass da noch Potential noch oben ist und ich erste die Spitze des Eisbergs gesehen habe. </br>
+Mein Wissen über Vagrant wurde deutlich vergrössert. Ich glaube aber, dass da noch Potential noch oben ist und ich erst die Spitze des Eisbergs gesehen habe. </br>
 *Markdown* </br>
 Ich konnte Markdown effizent nutzen und befinde es als gutes Dokumentiersystem. </br>
 *Linux* </br>
