@@ -1,15 +1,15 @@
 # Serverdienste automatisieren mit Vagrant
 
 ## Inhaltsverzeichnis
-1. Kurzbeschrieb
-2. Wissenstand vor der LB1
-3. Implementierung
-    * Sicherheit
-    * Netzwerkplan
-    * Vagrantfile
-4. Testing
-5. Jetziger Wissensstand
-6. Fazit
+1. [Kurzbeschrieb](Kurzbeschrieb)
+2. [Wissenstand vor der LB1](Wissenstand%20vor%20der%20LB1)
+3. [Implementierung](Implementierung)
+    * [Sicherheit](Sicherheit)
+    * [Netzwerkplan](Netzwerkplan)
+    * [Vagrantfile](Vagrantfile)
+4. [Testing](Testing)
+5. [Jetziger Wissensstand](Jetziger%20Wissensstand)
+6. [Reflexion](Reflexion)
 
 ## Kurzbeschrieb
 Das Ziel für mich war es einen Server automatisch erstellen zu können, auf dem eine MySQL-Datenbannk, sowie ein Webserver mit phpMyAdmin laufen.
@@ -184,18 +184,18 @@ sudo ufw allow ssh
 ![Image](/User.PNG)
 
 ## Jetziger Wissensstand
-*Git*
+*Git* </br>
 Dieser Wissenstand hat sich nicht gross verändert, da ich bereits mit Git vertraut war.
-*Vagrant*
+*Vagrant* </br>
 Mein Wissen über Vagrant wurde deutlich vergrössert. Ich glaube aber, dass da noch Potential noch oben ist und ich erste die Spitze des Eisbergs gesehen habe.
-*Markdown*
+*Markdown* </br>
 Ich konnte Markdown effizent nutzen und befinde es als gutes Dokumentiersystem.
-*Linux*
+*Linux* </br>
 Meine Linux-Kenntnisse haben sich nicht gross verändert, viel musste ich nachschauen.
-*Virtualisierung*
+*Virtualisierung* </br>
 Die Virtualisierung habe ich mit dieser LB nur praktisch und nicht in der Theorie kennengelernt.
 Da bedarf es noch mehr Theorie um diese wirklich zu verstehen.
 
-## Fazit
-Auch wenn ich nicht genau alles erfüllen konnte was ich wollte, denke ich habe ich viel gelernt und kann dies auch im Arbeitsumfeld einsetzen, da wir auch gerade im Zuge der Virtualisierung sind.
+## Reflexion
+Auch wenn ich nicht genau alles erfüllen konnte was ich wollte (da es Neuland für mich war), denke ich habe ich viel gelernt und kann dies auch im Arbeitsumfeld einsetzen, da wir auch gerade im Zuge der Virtualisierung sind.
 Ich werde mich wahrscheinlich noch etwas mehr darüber informieren, da dieses Thema in Zukunft unausweichlich und wichtig ist. Ich finde die LB1 war ein guter Einstieg dazu.
