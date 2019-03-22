@@ -1,4 +1,39 @@
-1. Vagrantfile
+# Serverdienste automatisieren mit Vagrant
+
+## Kurzbeschrieb
+Das Ziel für mich war es einen Server automatisch erstellen zu können, auf dem eine MySQL-Datenbannk, sowie ein Webserver mit phpMyAdmin laufen.
+
+## Wissensstand vor der LB1
+*Git*
+Git habe ich bereits im Geschäft als normaler Arbeitsbereich und fühle mich dort also ziemlich sicher.
+Ich benutze die Eclipse IDE und pushe von dort aus meine Files mit einem einfache Klick.
+*Vagrant*
+Vagrant kannte ich vor dem Modul noch nicht. Im Unterricht habe ich gelernt, dass man damit VMs automatisiert erstellen kann.
+Wie genau dies abläuft mit den dem Erstellen eines Vagrantfiles und dessen Inhalt, musste ich mit dem Unterrichtsmaterial sowie dem Internet beschäftigen.
+*Markdown*
+Von Markdown hatte ich noch nie etwas gehört. Der erste Berührungspunkt waren die Aufgaben im Unterricht des M300.
+*Linux*
+Meine Linux-Kenntnisse sind noch ziemlich basisch.
+Ich habe leider nicht so viel mit Linux zu tun, weshalb ich die gelernten Befehle schnell wieder vergesse.
+*Virtualisierung*
+Bezüglich der Virtualisierung habe ich nicht viel Wissen. In der Woche vom 18. März hat ein üK mit dem Kernthema Virtualisierung begonnen, wodurch mein Wissen erst noch wachsen wird.
+
+## Implementierung
+### Sicherheit
+Folgende Sicherheitsaspekte waren geplant:
+1. Usererstellung
+2. Firewall
+3. Reverse-Proxy
+4. HTTPS
+
+Folgende Sicherheitsapsekte konnten umgesetzt werden:
+1. Usererstellung
+2. Firewall
+
+*Kommentar*
+Leider konnten nicht alle Sicherheitsaspekte implementiert werden. Das läuft zuschulden von zu wenig Wissen. Vieles funktionierte leider nicht, trotz Online-Tutorials und dem Unterrichtsmaterial.
+
+### Vagrantfile
 
 Die einzelnen Code Abschnitte des Vagrantfiles.
 
@@ -112,3 +147,20 @@ sudo ufw allow out 22/tcp
 sudo ufw allow 80/tcp
 sudo ufw allow ssh
 ~~~~
+
+## Jetziger Wissensstand
+*Git*
+Dieser Wissenstand hat sich nicht gross verändert, da ich bereits mit Git vertraut war.
+*Vagrant*
+Mein Wissen über Vagrant wurde deutlich vergrössert. Ich glaube aber, dass da noch Potential noch oben ist und ich erste die Spitze des Eisbergs gesehen habe.
+*Markdown*
+Ich konnte Markdown effizent nutzen und befinde es als gutes Dokumentiersystem.
+*Linux*
+Meine Linux-Kenntnisse haben sich nicht gross verändert, viel musste ich nachschauen.
+*Virtualisierung*
+Die Virtualisierung habe ich mit dieser LB nur praktisch und nicht in der Theorie kennengelernt.
+Da bedarf es noch mehr Theorie um diese wirklich zu verstehen.
+
+## Fazit
+Auch wenn ich nicht genau alles erfüllen konnte was ich wollte, denke ich habe ich viel gelernt und kann dies auch im Arbeitsumfeld einsetzen, da wir auch gerade im Zuge der Virtualisierung sind.
+Ich werde mich wahrscheinlich noch etwas mehr darüber informieren, da dieses Thema in Zukunft unausweichlich und wichtig ist. Ich finde die LB1 war ein guter Einstieg dazu.
