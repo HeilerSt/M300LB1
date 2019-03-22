@@ -2,7 +2,7 @@
 
 ## Kurzbeschrieb
 Das Ziel für mich war es einen Server automatisch erstellen zu können, auf dem eine MySQL-Datenbannk, sowie ein Webserver mit phpMyAdmin laufen.
-Dieser soll zusätzlich Sicherheitstechnisch gesichert sein.
+Dieser soll zusätzlich sicherheitstechnisch gesichert sein.
 
 ## Wissensstand vor der LB1
 *Git*
@@ -152,6 +152,8 @@ sudo ufw allow out 22/tcp
 sudo ufw allow 80/tcp
 sudo ufw allow ssh
 ~~~~
+
+## Testing
 
 |Testfall | Erwartet | Resultat |
 |:--:|:--:|:--:|
