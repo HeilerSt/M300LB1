@@ -1,15 +1,15 @@
 # Serverdienste automatisieren mit Vagrant
 
 ## Inhaltsverzeichnis
-1. [Kurzbeschrieb](Kurzbeschrieb)
-2. [Wissenstand vor der LB1](Wissenstand%20vor%20der%20LB1)
-3. [Implementierung](Implementierung)
-    * [Sicherheit](Sicherheit)
-    * [Netzwerkplan](Netzwerkplan)
-    * [Vagrantfile](Vagrantfile)
-4. [Testing](Testing)
-5. [Jetziger Wissensstand](Jetziger%20Wissensstand)
-6. [Reflexion](Reflexion)
+1. [Kurzbeschrieb](#Kurzbeschrieb)
+2. [Wissensstand vor der LB1](#Wissensstand%20vor%20der%20LB1)
+3. [Implementierung](#Implementierung)
+    * [Sicherheit](#Sicherheit)
+    * [Netzwerkplan](#Netzwerkplan)
+    * [Vagrantfile](#Vagrantfile)
+4. [Testing](#Testing)
+5. [Jetziger Wissensstand](#Jetziger%20Wissensstand)
+6. [Reflexion](#Reflexion)
 
 ## Kurzbeschrieb
 Das Ziel für mich war es einen Server automatisch erstellen zu können, auf dem eine MySQL-Datenbannk, sowie ein Webserver mit phpMyAdmin laufen.
