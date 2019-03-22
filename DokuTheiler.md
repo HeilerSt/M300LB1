@@ -1,22 +1,33 @@
 # Serverdienste automatisieren mit Vagrant
 
+## Inhaltsverzeichnis
+1. Kurzbeschrieb
+2. Wissenstand vor der LB1
+3. Implementierung
+    * Sicherheit
+    * Netzwerkplan
+    * Vagrantfile
+4. Testing
+5. Jetziger Wissensstand
+6. Fazit
+
 ## Kurzbeschrieb
 Das Ziel für mich war es einen Server automatisch erstellen zu können, auf dem eine MySQL-Datenbannk, sowie ein Webserver mit phpMyAdmin laufen.
 Dieser soll zusätzlich sicherheitstechnisch gesichert sein.
 
 ## Wissensstand vor der LB1
-*Git*
+*Git* </br>
 Git habe ich bereits im Geschäft als normaler Arbeitsbereich und fühle mich dort also ziemlich sicher.
 Ich benutze die Eclipse IDE und pushe von dort aus meine Files mit einem einfache Klick.
-*Vagrant*
+*Vagrant* </br>
 Vagrant kannte ich vor dem Modul noch nicht. Im Unterricht habe ich gelernt, dass man damit VMs automatisiert erstellen kann.
 Wie genau dies abläuft mit den dem Erstellen eines Vagrantfiles und dessen Inhalt, musste ich mit dem Unterrichtsmaterial sowie dem Internet beschäftigen.
-*Markdown*
+*Markdown* </br>
 Von Markdown hatte ich noch nie etwas gehört. Der erste Berührungspunkt waren die Aufgaben im Unterricht des M300.
-*Linux*
+*Linux* </br>
 Meine Linux-Kenntnisse sind noch ziemlich basisch.
 Ich habe leider nicht so viel mit Linux zu tun, weshalb ich die gelernten Befehle schnell wieder vergesse.
-*Virtualisierung*
+*Virtualisierung* </br>
 Bezüglich der Virtualisierung habe ich nicht viel Wissen. In der Woche vom 18. März hat ein üK mit dem Kernthema Virtualisierung begonnen, wodurch mein Wissen erst noch wachsen wird.
 
 ## Implementierung
