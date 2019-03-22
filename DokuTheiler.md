@@ -2,13 +2,13 @@
 
 ## Inhaltsverzeichnis
 1. [Kurzbeschrieb](#Kurzbeschrieb)
-2. [Wissensstand vor der LB1](#Wissensstand%20vor%20der%20LB1)
+2. [Wissensstand vor der LB1](#Wissensstand-vor-der-LB1)
 3. [Implementierung](#Implementierung)
     * [Sicherheit](#Sicherheit)
     * [Netzwerkplan](#Netzwerkplan)
     * [Vagrantfile](#Vagrantfile)
 4. [Testing](#Testing)
-5. [Jetziger Wissensstand](#Jetziger%20Wissensstand)
+5. [Jetziger Wissensstand](#Jetziger-Wissensstand)
 6. [Reflexion](#Reflexion)
 
 ## Kurzbeschrieb
