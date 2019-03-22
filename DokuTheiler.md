@@ -181,7 +181,7 @@ sudo ufw allow ssh
 |:--:|:--:|:--:|
 |Webserver|Webserver kann im Browser abgerufen werden|Der Webserver konnte im Browser abgerufen werden|
 |phpMyAdmin|Das phpMyAdmin Tool wird angezeigt|Das phpMyAdmin Tool wurde auf dem Webserver angezeigt|
-|mySQL-Server|Der mySQL sollte laufen|mySQL ist betriebsbereit|
+|mySQL-Server|Der mySQL-Server sollte laufen|mySQL-Server ist betriebsbereit|
 |Firewall|Die Firewall sollte aktiv sein und Port 80 und 22 offen halten|Firewall ist aktiv und Port 80 und 22 offen|
 |User|Man kann sich mit dem erstellten nicht-Root-User einloggen|Ich konnte mich mit dem User einloggen|
 
