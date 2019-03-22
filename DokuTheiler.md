@@ -42,8 +42,8 @@ Folgende Sicherheitsapsekte konnten umgesetzt werden:
 1. Nicht-Root-Usererstellung
 2. Firewall
 
-*Kommentar*
-Leider konnten nicht alle Sicherheitsaspekte implementiert werden. Das läuft zuschulden von zu wenig Wissen. Vieles funktionierte leider nicht, trotz Online-Tutorials und dem Unterrichtsmaterial.
+*Kommentar* </br>
+Leider konnten nicht alle Sicherheitsaspekte implementiert werden. Das läuft zuschulden von zu wenig Wissen. Vieles funktionierte leider nicht, trotz Online-Tutorials und dem Unterrichtsmaterial. </br>
 
 ### Netzwerkplan
 ![Image](/Netzwerkplan.PNG)
