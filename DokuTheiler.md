@@ -73,6 +73,7 @@ Module installieren, damit Apache funktioniert.
 ~~~~
 a2enmod actions fastcgi rewrite
 service apache2 reload
+~~~~
 
 php-Pakete installieren.
 ~~~~
