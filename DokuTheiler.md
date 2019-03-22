@@ -18,17 +18,17 @@ Dieser soll zusätzlich sicherheitstechnisch gesichert sein.
 ## Wissensstand vor der LB1
 *Git* </br>
 Git habe ich bereits im Geschäft als normaler Arbeitsbereich und fühle mich dort also ziemlich sicher.
-Ich benutze die Eclipse IDE und pushe von dort aus meine Files mit einem einfache Klick.
+Ich benutze die Eclipse IDE und pushe von dort aus meine Files mit einem einfache Klick. </br>
 *Vagrant* </br>
 Vagrant kannte ich vor dem Modul noch nicht. Im Unterricht habe ich gelernt, dass man damit VMs automatisiert erstellen kann.
-Wie genau dies abläuft mit den dem Erstellen eines Vagrantfiles und dessen Inhalt, musste ich mit dem Unterrichtsmaterial sowie dem Internet beschäftigen.
+Wie genau dies abläuft mit den dem Erstellen eines Vagrantfiles und dessen Inhalt, musste ich mit dem Unterrichtsmaterial sowie dem Internet beschäftigen. </br>
 *Markdown* </br>
-Von Markdown hatte ich noch nie etwas gehört. Der erste Berührungspunkt waren die Aufgaben im Unterricht des M300.
+Von Markdown hatte ich noch nie etwas gehört. Der erste Berührungspunkt waren die Aufgaben im Unterricht des M300. </br>
 *Linux* </br>
 Meine Linux-Kenntnisse sind noch ziemlich basisch.
-Ich habe leider nicht so viel mit Linux zu tun, weshalb ich die gelernten Befehle schnell wieder vergesse.
+Ich habe leider nicht so viel mit Linux zu tun, weshalb ich die gelernten Befehle schnell wieder vergesse. </br>
 *Virtualisierung* </br>
-Bezüglich der Virtualisierung habe ich nicht viel Wissen. In der Woche vom 18. März hat ein üK mit dem Kernthema Virtualisierung begonnen, wodurch mein Wissen erst noch wachsen wird.
+Bezüglich der Virtualisierung habe ich nicht viel Wissen. In der Woche vom 18. März hat ein üK mit dem Kernthema Virtualisierung begonnen, wodurch mein Wissen erst noch wachsen wird. </br>
 
 ## Implementierung
 ### Sicherheit
@@ -185,16 +185,16 @@ sudo ufw allow ssh
 
 ## Jetziger Wissensstand
 *Git* </br>
-Dieser Wissenstand hat sich nicht gross verändert, da ich bereits mit Git vertraut war.
+Dieser Wissenstand hat sich nicht gross verändert, da ich bereits mit Git vertraut war. </br>
 *Vagrant* </br>
-Mein Wissen über Vagrant wurde deutlich vergrössert. Ich glaube aber, dass da noch Potential noch oben ist und ich erste die Spitze des Eisbergs gesehen habe.
+Mein Wissen über Vagrant wurde deutlich vergrössert. Ich glaube aber, dass da noch Potential noch oben ist und ich erste die Spitze des Eisbergs gesehen habe. </br>
 *Markdown* </br>
-Ich konnte Markdown effizent nutzen und befinde es als gutes Dokumentiersystem.
+Ich konnte Markdown effizent nutzen und befinde es als gutes Dokumentiersystem. </br>
 *Linux* </br>
-Meine Linux-Kenntnisse haben sich nicht gross verändert, viel musste ich nachschauen.
+Meine Linux-Kenntnisse haben sich nicht gross verändert, viel musste ich nachschauen. </br>
 *Virtualisierung* </br>
 Die Virtualisierung habe ich mit dieser LB nur praktisch und nicht in der Theorie kennengelernt.
-Da bedarf es noch mehr Theorie um diese wirklich zu verstehen.
+Da bedarf es noch mehr Theorie um diese wirklich zu verstehen. </br>
 
 ## Reflexion
 Auch wenn ich nicht genau alles erfüllen konnte was ich wollte (da es Neuland für mich war), denke ich habe ich viel gelernt und kann dies auch im Arbeitsumfeld einsetzen, da wir auch gerade im Zuge der Virtualisierung sind.
