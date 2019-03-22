@@ -174,6 +174,15 @@ sudo ufw allow ssh
 |Firewall|Die Firewall sollte aktiv sein und Port 80 und 22 offen halten|Firewall ist aktiv und Port 80 und 22 offen|
 |User|Man kann sich mit dem erstellten nicht-Root-User einloggen|Ich konnte mich mit dem User einloggen|
 
+*phpMyAdminWebsite* </br>
+![Image](/phpmyadminwebsite.PNG)
+
+*Firewall* </br>
+![Image](/Firewall.PNG)
+
+*User* </br>
+![Image](/User.PNG)
+
 ## Jetziger Wissensstand
 *Git*
 Dieser Wissenstand hat sich nicht gross verändert, da ich bereits mit Git vertraut war.
